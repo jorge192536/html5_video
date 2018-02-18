@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/11/2017, 12:52:14 AM
+    Author     : Jorge
+*/
+
+nav {
+    position: relative;
+    top: -16px;
+    /*left: -40px;*/
+    left: -9.1%;
+    right: 0;
+    margin: 0px auto;
+    width: 110%;
+    height: 11%;
+}
+ 
+nav ul {
+    list-style: none;
+    width: 100%;
+}
+ 
+nav ul li {
+    display: block;
+    float: left;
+    width: 16.66%;
+    background: black;
+}
+ 
+
+/* Sub-menú */
+nav ul li a {
+    color: #fff;
+    display: block;
+    line-height: 10px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav ul li a span {
+    background: #174459;
+    display: block;
+    height: 10%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -5px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav ul li a:hover span {
+    top: 0;
+}
+
+nav ul li ul {
+    position: absolute;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav ul li ul li {
+    display: none;
+}
+
+nav ul li:hover ul li {
+    position: relative;
+    display: block;
+    clear: left;
+    /*width: 180%*/;
+    width: 16.7%;
+    left: -3.6%;
+}
+
+nav ul li ul li a {
+    background: blue;
+}
+
+nav ul li ul li a:hover {
+    background: #5da5a2;
+}
+
+
+/* Colores */
+nav ul li a #primero {
+    background:  darkorange;
+}
+ 
+nav ul li a #segundo {
+    background:  darkblue;
+}
+ 
+nav ul li a #tercero {
+    background: darkgreen;
+}
+ 
+nav ul li a #cuarto {
+    background: darksalmon;
+}
+ 
+nav ul li a #quinto {
+    background: darkred;
+}
+
+nav ul li a #sexto {
+    background: red;
+}
