@@ -27,9 +27,13 @@ nav ul {
 nav ul li {
     display: block;
     float: left;
-    width: 16.66%;
-    background: black;
+    width: 15%;
+    /*background: black;*/
 }
+
+/*nav ul li a {
+    font-family: "Times New Roman";
+}*/
  
 
 /* Sub-menú */
@@ -85,8 +89,8 @@ nav ul li:hover ul li {
     display: block;
     clear: left;
     /*width: 180%*/;
-    width: 16.7%;
-    left: -3.6%;
+    width: 15%;
+    left: -3.8%;
 }
 
 nav ul li ul li a {
@@ -120,5 +124,9 @@ nav ul li a #quinto {
 }
 
 nav ul li a #sexto {
-    background: red;
+    background: crimson;
+}
+
+nav ul li a #septimo {
+    background: pink;
 }

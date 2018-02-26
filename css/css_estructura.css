@@ -44,6 +44,13 @@ and open the template in the editor.
     background: blue;
 }
 
+#login {
+    position: absolute;
+    width: 20%;
+    top: 20px;
+    right: 20px;
+}
+
 #div1_3 { /* logo jug */
     position: relative;
     width: 10%;
